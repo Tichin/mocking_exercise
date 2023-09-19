@@ -1,5 +1,5 @@
-from datetime import datetime
+import baking
 
-
-def print_datetime_now():
-    print('printing datetime.now inside import_module', datetime.now())
+def make_dessert():
+    print("We are going to have donuts for dessert")
+    baking.make_donut()
